@@ -1,6 +1,5 @@
 package alekseybykov.portfolio.xslt;
 
-import org.custommonkey.xmlunit.Diff;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
@@ -13,10 +12,9 @@ public class XSLTTest extends XSLTTestBase {
 
 	@Test
 	public void testBaseTransformations() throws TransformerException, IOException, SAXException {
-		String transformed = transform("base-transformations.xsl");
+		String transformed = transform("base-transformations.xsl", "data.xml");
 		String expected = loadFixture("transformed.xml");
 
-		Diff diff = new Diff(expected, transformed);
-		assertTrue(diff.similar());
+		assertTrue(isXmlSimilar(transformed, expected));
 	}
 }
