@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/xsl-choose.xsl"?>
+<data>
+	<item id="1">
+		<index>1</index>
+		<value>100</value>
+	</item>
+	<item id="2">
+		<index>2</index>
+		<value>10</value>
+	</item>
+	<item id="3">
+		<index>3</index>
+		<value>50</value>
+	</item>
+	<item id="4">
+		<index>4</index>
+		<value>200</value>
+	</item>
+	<item id="5">
+		<index>5</index>
+		<value>130</value>
+	</item>
+	<item id="6">
+		<index>6</index>
+		<value>12</value>
+	</item>
+</data>

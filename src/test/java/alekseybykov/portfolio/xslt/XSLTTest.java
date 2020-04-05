@@ -26,4 +26,12 @@ public class XSLTTest extends XSLTTestBase {
 		assertTrue(isXmlSimilar(transformed, expected));
 	}
 
+	@Test
+	public void testXslChoose() throws TransformerException, IOException, SAXException {
+		String transformed = transform("xsl-choose.xsl", "xsl-choose.xml");
+		String expected = loadFixture("xsl-choose-fixture.xml");
+
+		assertTrue(isXmlSimilar(transformed, expected));
+	}
+
 }
