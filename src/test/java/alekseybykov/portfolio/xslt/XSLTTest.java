@@ -12,9 +12,18 @@ public class XSLTTest extends XSLTTestBase {
 
 	@Test
 	public void testBaseTransformations() throws TransformerException, IOException, SAXException {
-		String transformed = transform("base-transformations.xsl", "data.xml");
-		String expected = loadFixture("transformed.xml");
+		String transformed = transform("core.xsl", "core.xml");
+		String expected = loadFixture("core-fixture.xml");
 
 		assertTrue(isXmlSimilar(transformed, expected));
 	}
+
+	@Test
+	public void testXslIf() throws TransformerException, IOException, SAXException {
+		String transformed = transform("xsl-if.xsl", "xsl-if.xml");
+		String expected = loadFixture("xsl-if-fixture.xml");
+
+		assertTrue(isXmlSimilar(transformed, expected));
+	}
+
 }

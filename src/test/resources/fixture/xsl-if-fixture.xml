@@ -1,0 +1,19 @@
+<html>
+	<body>
+		<h1>data</h1>
+		<table>
+			<tr>
+				<th>Index</th><th>Value</th>
+			</tr>
+			<tr>
+				<td>1</td><td>100</td>
+			</tr>
+			<tr>
+				<td>4</td><td>200</td>
+			</tr>
+			<tr>
+				<td>5</td><td>130</td>
+			</tr>
+		</table>
+	</body>
+</html>
