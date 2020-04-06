@@ -34,4 +34,11 @@ public class XSLTTest extends XSLTTestBase {
 		assertTrue(isXmlSimilar(transformed, expected));
 	}
 
+	@Test
+	public void testXslKey() throws TransformerException, IOException, SAXException {
+		String transformed = transform("xsl-key.xsl", "xsl-key.xml");
+		String expected = loadFixture("xsl-key-fixture.xml");
+
+		assertTrue(isXmlSimilar(transformed, expected));
+	}
 }

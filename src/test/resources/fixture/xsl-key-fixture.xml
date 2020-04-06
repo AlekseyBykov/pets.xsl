@@ -1,0 +1,16 @@
+<html>
+	<body>
+	<h1>data</h1>
+	<table>
+		<tr>
+			<th>Index</th>
+			<th>Value</th>
+			<th>&gt;=100</th>
+		</tr>
+			<tr>
+				<td>6</td>
+				<td>12</td>
+				<td>N</td>
+			</tr>
+		</table>
+</body></html>
