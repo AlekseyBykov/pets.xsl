@@ -41,4 +41,12 @@ public class XSLTTest extends XSLTTestBase {
 
 		assertTrue(isXmlSimilar(transformed, expected));
 	}
+
+	@Test
+	public void testXslApplyTemplate() throws TransformerException, IOException, SAXException {
+		String transformed = transform("xsl-apply-template.xsl", "xsl-apply-template.xml");
+		String expected = loadFixture("xsl-apply-template-fixture.xml");
+
+		assertTrue(isXmlSimilar(transformed, expected));
+	}
 }
