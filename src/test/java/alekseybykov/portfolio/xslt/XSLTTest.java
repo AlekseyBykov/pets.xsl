@@ -8,6 +8,10 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertTrue;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.04.2020
+ */
 public class XSLTTest extends XSLTTestBase {
 
 	@Test

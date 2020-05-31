@@ -18,6 +18,10 @@ import java.io.StringWriter;
 
 import static java.lang.String.format;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.04.2020
+ */
 public abstract class XSLTTestBase {
 
 	protected static TransformerFactory transformerFactory;

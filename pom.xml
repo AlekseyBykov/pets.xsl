@@ -24,6 +24,13 @@
     <description>Various examples of using XSLT, XSL-FO, and XPath</description>
     <url>https://alekseybykov.github.io</url>
 
+    <developers>
+        <developer>
+            <name>Aleksey Bykov</name>
+            <email>aleksey.n.bykov@gmail.com</email>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
